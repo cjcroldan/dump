@@ -13,7 +13,8 @@ public class ClassExample {
     String name, bff;
     int age, affinity;
     double grade, money;
-    ClassExample.bff;
+    // ClassExample.bff;
+    private static ArrayList<Student> studentList = new ArrayList();
     
     public ClassExample(String name) {
         this.name = name;
